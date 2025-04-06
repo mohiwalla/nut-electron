@@ -129,8 +129,8 @@ export default function LoginPage() {
 											</div>
 
 											<div className="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border">
-												<span className="relative z-10 bg-background px-2 text-muted-foreground">
-													Or continue with
+												<span className="relative z-10 px-2 bg-card text-muted-foreground">
+													OR continue with
 												</span>
 											</div>
 
@@ -180,7 +180,7 @@ export default function LoginPage() {
 												/>
 
 												{error && (
-													<div className="text-destructive flex gap-2 justify-center items-center text-sm">
+													<div className="text-destructive flex gap-2 justify-center items-center text-sm -my-2">
 														<MailWarning className="w-4" />
 														{error}
 													</div>

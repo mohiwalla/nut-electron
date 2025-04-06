@@ -132,7 +132,7 @@
 
 @layer base {
 	* {
-		@apply border-border outline-ring/50 selection:bg-black/20;
+		@apply border-border outline-ring/50 selection:bg-foreground selection:text-background;
 	}
 
 	body {
@@ -145,7 +145,7 @@
 
 	button,
 	a {
-		@apply cursor-default active:opacity-60;
+		@apply cursor-default active:opacity-50;
 	}
 }
 

@@ -6,7 +6,7 @@ function createWindow() {
 		height: 600,
 	})
 
-	win.removeMenu()
+	// win.removeMenu() // comment in production
 	win.loadURL("http://localhost:5173")
 }
 

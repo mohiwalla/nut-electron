@@ -10,7 +10,7 @@ export default function TermsPage() {
 				<h1 className="font-bold">Terms & Conditions</h1>
 			</div>
 
-			<div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+			<div className="max-w-3xl mx-auto bg-card p-8 rounded-lg shadow-lg">
 				<p className="text-sm text-muted-foreground">
 					Last Updated: 4th April 2025
 				</p>
